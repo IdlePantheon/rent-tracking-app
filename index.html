@@ -7,6 +7,31 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <header class="site-header">
+            <h1>Rent Monitor</h1>
+            <p class="subtitles">Track who's paid, who's behind and by how long</p>
+        </header>
+        <main>
+            <table class="rent-table">
+                <thead>
+                    <tr>
+                        <th>Tenant</th>
+                        <th>Unit</th>
+                        <th>Rent Due</th>
+                        <th>Amount Paid</th>
+                        <th>Status</th>
+                        <th>Last Payment Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="green-status">
+                        <td>John Kamau</td>
+                        <td>Floor 1</td>
+                        <td>KES 15000</td>  
+                        <td><span class="status-badge">Paid</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
     </body>
 </html>
